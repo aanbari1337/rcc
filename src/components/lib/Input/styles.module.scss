@@ -1,0 +1,15 @@
+.input{
+    background: #f6f8fa;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    padding: 5px 12px;
+    &:focus-visible{
+        background: #fff;
+        outline: 2px solid #0969da;
+    }
+    &::placeholder{
+        color: #b3b7bc;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

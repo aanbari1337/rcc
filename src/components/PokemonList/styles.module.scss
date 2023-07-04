@@ -1,0 +1,24 @@
+.list {
+  margin-top: 20px;
+
+  height: calc(100vh - 163px);
+  overflow-y: auto;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    border: 0;
+    background: none;
+    color: #0969da;
+    &:hover {
+      cursor: pointer;
+    }
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
