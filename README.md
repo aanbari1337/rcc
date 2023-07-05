@@ -19,7 +19,7 @@ This challenge is expected to take about 2-3 hours.
     - adding fallback Image in the PokemonDetail component
 - What would you do differently if you were allocated more time?
     - Using Typescript.
-    - Improve loading components by using awesome skeletons
+    - Using awesome skeletons
 
 
 ## Quick Start
