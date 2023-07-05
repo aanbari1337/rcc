@@ -11,3 +11,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </React.StrictMode>
 );
+
+// Improvements
+
+// cache fetched data
+// fallback image
